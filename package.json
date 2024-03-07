@@ -27,6 +27,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.0",
     "react-intersection-observer": "^9.8.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
     "three": "^0.160.1",
     "three-bmfont-text": "^2.3.0"
   },

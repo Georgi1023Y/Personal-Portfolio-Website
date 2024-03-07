@@ -308,7 +308,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="sm:mt-6 md:mt-8 lg:mt-8 xxl:mt-12 flex justify-center">
-            <button className="flex justify-center items-center gap-1 sm:py-2 sm:px-6 md:py-4 md:px-8 py-2 px-6 xxl:py-8 xxl:px-12 bg-white rounded-full">
+            <button className="flex justify-center items-center gap-1 sm:py-2 sm:px-6 md:py-4 md:px-8 py-2 px-6 xxl:py-8 xxl:px-12 bg-white hover:bg-gray-200 rounded-full">
               <div className="sm:hidden md:hidden xl:hidden xxl:hidden">
                 <Icon
                   icon="mdi:github"

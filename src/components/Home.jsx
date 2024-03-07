@@ -134,7 +134,7 @@ const Home = () => {
           <div className="flex flex-col items-center justify-center">
             {/* CAREER + NAME */}
             <div className="flex flex-col items-center mt-16">
-              <h1 className="text-white text-3xl font-medium">HELLO,</h1>
+              <h2 className="text-white text-3xl font-medium">HELLO,</h2>
               <h1 className="sm:my-4 md:my-8 text-4xl logo-text text-center">
                 <AutoTypeText text={textToType} interval={typingInterval} />
               </h1>
@@ -230,27 +230,33 @@ const Home = () => {
           {/* NAVBAR */}
           <div className="flex flex-row items-center justify-center gap-32 lg:gap-8  w-full lg:h-20 xl:h-24 xxl:h-44 rounded-full">
             <nav className="flex lg:gap-12 xl:gap-14 xxl:gap-20">
-              <a
-                className="lg:text-2xl xl:text-3xl xxl:text-5xl hover:border-white hover:border-b-2 cursor-pointer"
-                onClick={() => scrollToTop()}
-                href="#"
-              >
-                Home
-              </a>
-              <a
-                className="lg:text-2xl xl:text-3xl xxl:text-5xl hover:border-white hover:border-b-2 cursor-pointer"
-                onClick={() => scrollToProjects()}
-                href="#"
-              >
-                Projects
-              </a>
-              <a
-                className="lg:text-2xl xl:text-3xl xxl:text-5xl hover:border-white hover:border-b-2 cursor-pointer"
-                onClick={() => scrollToContact()}
-                href="#"
-              >
-                Contact
-              </a>
+              <h2>
+                <a
+                  className="lg:text-2xl xl:text-3xl xxl:text-5xl hover:border-white hover:border-b-2 cursor-pointer"
+                  onClick={() => scrollToTop()}
+                  href="#"
+                >
+                  Home
+                </a>
+              </h2>
+              <h2>
+                <a
+                  className="lg:text-2xl xl:text-3xl xxl:text-5xl hover:border-white hover:border-b-2 cursor-pointer"
+                  onClick={() => scrollToProjects()}
+                  href="#"
+                >
+                  Projects
+                </a>
+              </h2>
+              <h2>
+                <a
+                  className="lg:text-2xl xl:text-3xl xxl:text-5xl hover:border-white hover:border-b-2 cursor-pointer"
+                  onClick={() => scrollToContact()}
+                  href="#"
+                >
+                  Contact
+                </a>
+              </h2>
             </nav>
           </div>
         </ScrollAnimationFromTop>
@@ -259,9 +265,9 @@ const Home = () => {
           <div className="flex flex-row lg:gap-10 xl:gap-72 xxl:gap-10">
             {/* CAREER + NAME */}
             <div className="flex flex-col lg:mt-24 xl:mt-28 xxl:mt-20">
-              <h1 className="text-white lg:text-3xl xl:text-3xl xxl:text-5xl font-light">
+              <h2 className="text-white lg:text-3xl xl:text-3xl xxl:text-5xl font-semibold">
                 HELLO,
-              </h1>
+              </h2>
               <h1 className="my-6 xxl:my-20 lg:text-3xl xl:text-4xl xxl:text-8xl logo-text">
                 <AutoTypeText text={textToType} interval={typingInterval} />
               </h1>

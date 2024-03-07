@@ -1,7 +1,6 @@
 import { Suspense, useState } from "react";
 import Home from "./components/Home";
 import About from "./components/About";
-import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -150,9 +149,6 @@ function App() {
               <About />
             </div>
           </ScrollAnimationFromRight>
-          <div className="sm:mb-16 md:mb-10 lg:mb-20 xl:mb-20 xxl:pb-40">
-            <Services />
-          </div>
           {/* DOWN ARROW ICON */}
           <ScrollAnimationFromTop>
             <div className="md:hidden lg:hidden xl:hidden xxl:hidden flex justify-center sm:mb-16 md:mb-10 lg:mb-20 xl:mb-20 xxl:pb-40">

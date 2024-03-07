@@ -21,16 +21,16 @@
 /* 3D COMPUTER MODEL FOR LG SCREEN SIZES */
 @media (min-width: 1024px) and (max-width: 1439px) {
     canvas {
-        height: 70vh !important;
-        width: 70vh !important;
+        height: 45vh !important;
+        width: 45vh !important;
     }
 }
 
 /* 3D COMPUTER MODEL FOR XL SCREEN SIZES */
 @media (min-width: 1440px) and (max-width: 1823px) {
     canvas {
-            height: 70vh !important;
-            width: 70vh !important;
+            height: 55vh !important;
+            width: 55vh !important;
     }
 }
 
@@ -59,6 +59,9 @@ body {
     background-image: linear-gradient(to right, #000000, #070606, #0e0d0c, #121211, #161615);
 }
 
+.dark-mode h2 {
+    color: #ffd000;
+}
 
 .logo-text {
     font-family: 'Nanum Brush Script', cursive;

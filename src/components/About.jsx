@@ -104,9 +104,9 @@ const About = () => {
 
       {/* ABOUT ME COMPONENT FOR LG,XL AND XXL SCREENS */}
       <div className="flex flex-col sm:hidden md:hidden">
-        <h1 className="text-white text-4xl xl:text-5xl xxl:text-6xl font-bold text-center mb-16">
+        <h2 className="text-white text-4xl xl:text-5xl xxl:text-6xl font-bold text-center mb-16">
           About Me
-        </h1>
+        </h2>
         {/* TEXT + PARAGRAPH */}
         <div className="flex flex-col gap-8 xl:gap-6 xxl:gap-16">
           <h2 className="text-3xl xl:text-3xl xxl:text-5xl font-semibold">

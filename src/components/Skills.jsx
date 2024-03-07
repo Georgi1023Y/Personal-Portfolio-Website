@@ -13,9 +13,9 @@ const Skills = () => {
           Skills
         </h2>
         <div className="flex flex-col items-center mt-10">
-          <h2 className="sm:text-xl md:text-3xl font-semibold text-center">
+          <h3 className="sm:text-xl md:text-3xl font-semibold text-center">
             Design tools I Use
-          </h2>
+          </h3>
           {/* DESIGN TOOLS */}
           <div className="flex flex-row gap-3 sm:gap-2">
             <div className="mt-10 flex flex-row items-center justify-center sm:gap-3 sm:py-2.5 sm:px-5 md:gap-4 md:py-3 md:px-7 bg-white rounded-full">
@@ -42,9 +42,9 @@ const Skills = () => {
             </div>
           </div>
           {/* TECHNOLOGIES */}
-          <h2 className="mt-10 sm:text-xl md:text-3xl font-semibold text-center">
+          <h3 className="mt-10 sm:text-xl md:text-3xl font-semibold text-center">
             Technologies I Use
-          </h2>
+          </h3>
           {/* TECHNOLOGIES I USE */}
           {/* HTML5 */}
           <div className="flex flex-col gap-3">
@@ -191,9 +191,9 @@ const Skills = () => {
           Skills
         </h2>
         <div className="flex flex-col items-center">
-          <h2 className="mt-7 lg:text-3xl xl:text-3xl xxl:text-5xl font-semibold text-center">
+          <h3 className="mt-7 lg:text-3xl xl:text-3xl xxl:text-5xl font-semibold text-center">
             Design Tools I Use
-          </h2>
+          </h3>
           {/* DESIGN TOOLS */}
           <div className="flex flex-row gap-5">
             <BouncingAnimation>
@@ -223,9 +223,9 @@ const Skills = () => {
               </div>
             </BouncingAnimation>
           </div>
-          <h2 className="mt-16 lg:text-3xl xl:text-3xl xxl:text-5xl font-semibold text-center">
+          <h3 className="mt-16 lg:text-3xl xl:text-3xl xxl:text-5xl font-semibold text-center">
             Technologies I Use
-          </h2>
+          </h3>
           {/* TECHNOLOGIES */}
           <div className="flex flex-col lg:gap-3 xl:gap-5 xxl:gap-6">
             <div className="flex flex-row lg:gap-3 xl:gap-5 xxl:gap-6">
@@ -408,7 +408,7 @@ const Skills = () => {
           </div>
           {/* DEVELOPMENT & PRODUCTIVITY TOOLS */}
           <div className="flex flex-col">
-            <h2 className="mt-16 lg:text-3xl xl:text-3xl xxl:text-5xl font-semibold text-center">
+            <h2 className="mt-16 lg:text-3xl xl:text-3xl xxl:text-5xl font-extrabold text-center">
               DEVELOPMENT & PRODUCTIVITY <br />
               <h2 className="mt-4">TOOLS I USE</h2>
             </h2>
@@ -483,7 +483,7 @@ const Skills = () => {
           {/* RESUME DOWNLOAD */}
           <BouncingAnimation>
             <div className="mt-16 flex justify-center">
-              <button className="flex flex-row items-center justify-center bg-yellow-500 rounded-full gap-2 text-black py-4 px-10 xxl:py-6 xxl:px-8">
+              <button className="flex flex-row items-center justify-center bg-yellow-500 hover:bg-yellow-600 rounded-full gap-2 text-black py-4 px-10 xxl:py-6 xxl:px-8">
                 <div className="hidden lg:flex xl:flex xxl:hidden">
                   <Icon
                     icon="material-symbols-light:download"
@@ -497,7 +497,7 @@ const Skills = () => {
                   />
                 </div>
                 <h3 className="text-lg xl:text-xl xxl:text-3xl font-light">
-                  RESUME
+                  Resume
                 </h3>
               </button>
             </div>
