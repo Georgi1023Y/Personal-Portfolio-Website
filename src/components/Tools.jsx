@@ -5,94 +5,133 @@ import { BouncingAnimation } from "./ScrollAnimation";
 const Tools = () => {
   return (
     <div className="flex flex-col items-center">
-      <h2 className="sm:text-2xl md:text-3xl sm:text-center md:text-center lg:text-5xl xl:text-6xl xxl:text-6xl font-semibold">
+      <h2 className="text-lg md:text-xl sm:text-center md:text-center lg:text-xl xl:text-2xl font-semibold">
         Portfolio Made With
       </h2>
       {/* PROGRAMMING LANGUAGES USED IN THE WEBSITE */}
-      <div className="mt-20 sm:mt-10 md:mt-12 sm:flex sm:flex-col sm:gap-4 md:flex md:flex-col md:gap-6 flex flex-row lg:gap-3 xl:gap-3 xxl:gap-8">
-        <BouncingAnimation>
-          <div className="flex flex-row items-center justify-center sm:gap-4 sm:w-60 sm:h-16 md:gap-4 md:px-7 md:py-3 lg:gap-4 lg:px-8 lg:py-3 xl:gap-4 xl:py-3 xl:px-7 xxl:gap-10 xxl:px-12 xxl:py-8 bg-white rounded-full">
-            <div className="lg:hidden xl:hidden xxl:hidden">
-              <Icon icon="logos:figma" style={{ fontSize: 35 }} />
-            </div>
-            <div className="sm:hidden md:hidden xxl:hidden">
-              <Icon icon="logos:figma" style={{ fontSize: 45 }} />
-            </div>
-            <div className="sm:hidden md:hidden lg:hidden xl:hidden">
-              <Icon icon="logos:figma" style={{ fontSize: 60 }} />
-            </div>
-            <h3 className="text-black sm:text-lg md:text-xl lg:text-xl xl:text-2xl xxl:text-4xl font-medium">
-              Figma
-            </h3>
-          </div>
-        </BouncingAnimation>
-        <BouncingAnimation>
-          <div className="flex flex-row items-center justify-center sm:gap-4 sm:w-60 sm:h-16 md:gap-4 md:px-7 md:py-3 lg:gap-4 lg:px-8 lg:py-3 xl:gap-4 xl:py-3 xl:px-7 xxl:gap-10 xxl:px-12 xxl:py-8 bg-white rounded-full">
-            <div className="lg:hidden xl:hidden xxl:hidden">
-              <Icon icon="devicon:react" style={{ fontSize: 40 }} />
-            </div>
-            <div className="sm:hidden md:hidden xxl:hidden">
-              <Icon icon="devicon:react" style={{ fontSize: 45 }} />
-            </div>
-            <div className="sm:hidden md:hidden lg:hidden xl:hidden">
-              <Icon icon="devicon:react" style={{ fontSize: 60 }} />
-            </div>
-            <h3 className="text-black sm:text-lg md:text-xl lg:text-xl xl:text-2xl xxl:text-4xl font-medium">
-              React.js
-            </h3>
-          </div>
-        </BouncingAnimation>
-        <BouncingAnimation>
-          <div className="flex flex-row items-center justify-center sm:gap-4 sm:w-60 sm:h-16 md:gap-4 md:px-7 md:py-3 lg:gap-4 lg:px-8 lg:py-3 xl:gap-4 xl:py-3 xl:px-7 xxl:gap-10 xxl:px-12 xxl:py-8 bg-white rounded-full">
-            <div className="lg:hidden xl:hidden xxl:hidden">
-              <Icon icon="devicon:tailwindcss" style={{ fontSize: 40 }} />
-            </div>
-            <div className="sm:hidden md:hidden xxl:hidden">
-              <Icon icon="devicon:tailwindcss" style={{ fontSize: 45 }} />
-            </div>
-            <div className="sm:hidden md:hidden lg:hidden xl:hidden">
-              <Icon icon="devicon:tailwindcss" style={{ fontSize: 60 }} />
-            </div>
-            <h3 className="text-black sm:text-lg md:text-xl lg:text-xl xl:text-2xl xxl:text-4xl font-medium">
-              Tailwind CSS
-            </h3>
-          </div>
-        </BouncingAnimation>
-        <BouncingAnimation>
-          <div className="flex flex-row items-center justify-center sm:gap-4 sm:w-60 sm:h-16 md:gap-4 md:px-7 md:py-3 lg:gap-4 lg:px-8 lg:py-3 xl:gap-4 xl:py-3 xl:px-7 xxl:gap-10 xxl:px-12 xxl:py-8 bg-white rounded-full">
-            <div className="lg:hidden xl:hidden xxl:hidden">
-              <Icon icon="logos:threejs" style={{ fontSize: 40 }} />
-            </div>
-            <div className="sm:hidden md:hidden xxl:hidden">
-              <Icon icon="logos:threejs" style={{ fontSize: 45 }} />
-            </div>
-            <div className="sm:hidden md:hidden lg:hidden xl:hidden">
-              <Icon icon="logos:threejs" style={{ fontSize: 60 }} />
-            </div>
-            <h3 className="text-black sm:text-lg md:text-xl lg:text-xl xl:text-2xl xxl:text-4xl font-medium">
-              Three.js
-            </h3>
-          </div>
-        </BouncingAnimation>
-      </div>
-      {/* ANIMATION FRAMEWORKS */}
-      <div className="mt-5 xxl:mt-8 sm:mt-4 sm:flex sm:flex-col sm:gap-4 md:mt-6 md:flex md:flex-col md:gap-6 flex flex-row lg:gap-3 xl:gap-3 xxl:gap-8">
-        <BouncingAnimation>
-          <div className="flex flex-row items-center justify-center sm:gap-4 sm:w-60 sm:h-16 md:w-60 md:gap-4 md:px-7 md:py-3 lg:gap-4 lg:px-8 lg:py-3 xl:gap-4 xl:py-3 xl:px-7 xxl:gap-10 xxl:px-12 xxl:py-8 bg-white rounded-full">
-            <div className="lg:hidden xl:hidden xxl:hidden">
-              <Icon icon="devicon:framermotion" style={{ fontSize: 40 }} />
-            </div>
-            <div className="sm:hidden md:hidden xxl:hidden">
-              <Icon icon="devicon:framermotion" style={{ fontSize: 45 }} />
-            </div>
-            <div className="sm:hidden md:hidden lg:hidden xl:hidden">
-              <Icon icon="devicon:framermotion" style={{ fontSize: 60 }} />
-            </div>
-            <h3 className="text-black sm:text-lg md:text-xl lg:text-xl xl:text-2xl xxl:text-4xl font-medium">
-              Framer
-            </h3>
-          </div>
-        </BouncingAnimation>
+      <div className="mt-5 flex flex-col items-center justify-center gap-4 md:mt-12 md:flex md:flex-col md:gap-6 lg:gap-4 xl:gap-5 bg-white p-5 lg:py-8 lg:px-10 bg-opacity-25 rounded-3xl">
+        <div className="flex flex-row items-center gap-5 md:gap-8 lg:gap-10">
+          <BouncingAnimation>
+            <a href="https://www.figma.com">
+              <div className="block lg:hidden">
+                <Icon icon="skill-icons:figma-light" style={{ fontSize: 28 }} />
+              </div>
+              <div className="hidden lg:block 2xl:hidden">
+                <Icon icon="skill-icons:figma-light" style={{ fontSize: 35 }} />
+              </div>
+              <div className="hidden 2xl:block">
+                <Icon icon="skill-icons:figma-light" style={{ fontSize: 40 }} />
+              </div>
+            </a>
+          </BouncingAnimation>
+          <BouncingAnimation>
+            <a href="https://react.dev">
+              <div className="block lg:hidden">
+                <Icon icon="skill-icons:react-light" style={{ fontSize: 28 }} />
+              </div>
+              <div className="hidden lg:block 2xl:hidden">
+                <Icon icon="skill-icons:react-light" style={{ fontSize: 35 }} />
+              </div>
+              <div className="hidden 2xl:block">
+                <Icon icon="skill-icons:react-light" style={{ fontSize: 40 }} />
+              </div>
+            </a>
+          </BouncingAnimation>
+        </div>
+        <div className="flex flex-row items-center gap-5 md:gap-8 lg:gap-10">
+          <BouncingAnimation>
+            <a href="https://tailwindcss.com">
+              <div className="block lg:hidden">
+                <Icon
+                  icon="skill-icons:tailwindcss-light"
+                  style={{ fontSize: 28 }}
+                />
+              </div>
+              <div className="hidden lg:block 2xl:hidden">
+                <Icon
+                  icon="skill-icons:tailwindcss-light"
+                  style={{ fontSize: 35 }}
+                />
+              </div>
+              <div className="hidden 2xl:block">
+                <Icon
+                  icon="skill-icons:tailwindcss-light"
+                  style={{ fontSize: 40 }}
+                />
+              </div>
+            </a>
+          </BouncingAnimation>
+          <BouncingAnimation>
+            <a href="https://threejs.org">
+              <div className="block lg:hidden">
+                <Icon
+                  icon="skill-icons:threejs-light"
+                  style={{ fontSize: 28 }}
+                />
+              </div>
+              <div className="hidden lg:block 2xl:hidden">
+                <Icon
+                  icon="skill-icons:threejs-light"
+                  style={{ fontSize: 35 }}
+                />
+              </div>
+              <div className="hidden 2xl:block">
+                <Icon
+                  icon="skill-icons:threejs-light"
+                  style={{ fontSize: 40 }}
+                />
+              </div>
+            </a>
+          </BouncingAnimation>
+        </div>
+        <div className="flex flex-row items-center gap-5 md:gap-8 lg:gap-10">
+          {/* VERCEL */}
+          <BouncingAnimation>
+            <a href="https://vercel.com">
+              <div className="block lg:hidden">
+                <Icon
+                  icon="skill-icons:vercel-light"
+                  style={{ fontSize: 28 }}
+                />
+              </div>
+              <div className="hidden lg:block 2xl:hidden">
+                <Icon
+                  icon="skill-icons:vercel-light"
+                  style={{ fontSize: 35 }}
+                />
+              </div>
+              <div className="hidden 2xl:block">
+                <Icon
+                  icon="skill-icons:vercel-light"
+                  style={{ fontSize: 40 }}
+                />
+              </div>
+            </a>
+          </BouncingAnimation>
+          {/* SUPABASE */}
+          <BouncingAnimation>
+            <a href="https://supabase.com">
+              <div className="block lg:hidden">
+                <Icon
+                  icon="skill-icons:supabase-light"
+                  style={{ fontSize: 28 }}
+                />
+              </div>
+              <div className="hidden lg:block 2xl:hidden">
+                <Icon
+                  icon="skill-icons:supabase-light"
+                  style={{ fontSize: 35 }}
+                />
+              </div>
+              <div className="hidden 2xl:block">
+                <Icon
+                  icon="skill-icons:supabase-light"
+                  style={{ fontSize: 40 }}
+                />
+              </div>
+            </a>
+          </BouncingAnimation>
+        </div>
       </div>
     </div>
   );

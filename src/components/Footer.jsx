@@ -7,11 +7,11 @@ const Follow = () => {
   const typingInterval = 100;
 
   return (
-    <div className="flex flex-col justify-center items-center sm:gap-4 md:gap-6 gap-8 xxl:gap-12">
-      <div className="border border-white w-full h-0"></div>
-      <h2 className="sm:text-base md:text-xl text-xl xxl:text-3xl text-center">
+    <div className="flex flex-col justify-center items-center gap-4 my-4 md:gap-6">
+      <div className="border border-white bg-white w-full h-0.5 my-4 rounded-full"></div>
+      <h3 className="text-xs md:text-base lg:text-lg text-center">
         <AutoTypeText text={textToType} interval={typingInterval} />
-      </h2>
+      </h3>
     </div>
   );
 };

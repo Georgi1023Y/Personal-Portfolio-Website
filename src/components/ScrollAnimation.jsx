@@ -21,7 +21,7 @@ export const ScrollAnimationFromLeft = ({ children }) => {
       ref={ref}
       animate={controls}
       initial="hidden"
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.8 }}
       variants={{
         visible: { opacity: 1, x: 0 },
         hidden: { opacity: 0, x: -50 },
@@ -50,7 +50,7 @@ export const ScrollAnimationFromRight = ({ children }) => {
       ref={ref}
       animate={controls}
       initial="hidden"
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.8 }}
       variants={{
         visible: { opacity: 1, x: 0 },
         hidden: { opacity: 0, x: 20 },
@@ -79,7 +79,7 @@ export const ScrollAnimationFromBottom = ({ children }) => {
       ref={ref}
       animate={controls}
       initial="hidden"
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.8 }}
       variants={{
         visible: { opacity: 1, y: 0 },
         hidden: { opacity: 0, y: 80 },
@@ -108,7 +108,7 @@ export const ScrollAnimationFromTop = ({ children }) => {
       ref={ref}
       animate={controls}
       initial="hidden"
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.8 }}
       variants={{
         visible: { opacity: 1, y: 0 },
         hidden: { opacity: 0, y: -50 },

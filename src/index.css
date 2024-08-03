@@ -2,45 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 3D COMPUTER MODEL FOR SM SCREEN SIZES */
-@media (min-width: 319px) and (max-width: 426px) {
+@media (min-width: 320px) and (max-width: 767px) {
     canvas {
-            height: 20vh !important;
-            width: 20vh !important;
+            height: 35vh !important;
+            width: 35vh !important;
     }
 }
 
-/* 3D COMPUTER MODEL FOR MD SCREEN SIZES */
-@media (min-width: 426px) and (max-width: 1023px) {
-    canvas {
-            height: 28vh !important;
-            width: 28vh !important;
-    }
-}
-
-/* 3D COMPUTER MODEL FOR LG SCREEN SIZES */
-@media (min-width: 1024px) and (max-width: 1439px) {
-    canvas {
-        height: 45vh !important;
-        width: 45vh !important;
-    }
-}
-
-/* 3D COMPUTER MODEL FOR XL SCREEN SIZES */
-@media (min-width: 1440px) and (max-width: 1823px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     canvas {
             height: 55vh !important;
             width: 55vh !important;
     }
 }
 
-/* 3D COMPUTER MODEL FOR XXL SCREEN SIZES */
-@media (min-width: 1824px) and (max-width: 2561px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
     canvas {
-            height: 85vh !important;
-            width: 85vh !important;
+        height: 50vh !important;
+        width: 50vh !important;
     }
 }
+
+@media (min-width: 1280px) and (max-width: 2560px) {
+    canvas {
+            height: 60vh !important;
+            width: 60vh !important;
+    }
+}
+
 
 /* MOST STYLES + DESKTOP + LAPTOP CSS STYLES */
 
@@ -52,15 +41,16 @@ body {
 
 /* 2 DIFFERENT GRADIENT BACKGROUNDS - FOR LIGHT AND DARK MODE */
 .light-mode {
-    background-image: linear-gradient(to right, #0086ff, #1876ff, #4363ff, #6947ff, #8d00ff);
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
+
 
 .dark-mode {
     background-image: linear-gradient(to right, #000000, #070606, #0e0d0c, #121211, #161615);
 }
 
 .dark-mode h2 {
-    color: #ffd000;
+    color: #ffb300;
 }
 
 .logo-text {
@@ -82,75 +72,78 @@ body {
      height: 40%;
 }
 
-/* CONTACT FORM WIDTH + HEIGHT FOR LG SCREENS */
-@media (min-width: 1024px) and (max-width: 1439px) {
-    .contact-form {
-        width: 100%;
-        height: 620px;
-        border-radius: 3rem;
-    }
-}
-
-/* CONTACT FORM WIDTH + HEIGHT FOR SM SCREENS */
-@media (min-width: 319px) and (max-width: 426px) {
-    .contact-form {
-        width: 100%;
-        height: 550px;
-        border-radius: 2rem;
-    }
-}
-
-/* CONTACT FORM WIDTH + HEIGHT FOR MD SCREENS */
-@media (min-width: 426px) and (max-width: 1023px) {
-    .contact-form {
-        width: 100%;
-        height: 680px;
-        border-radius: 2rem;
-    }
-}
-
-/* CONTACT FORM WIDTH + HEIGHT FOR XL SCREENS */
-@media (min-width: 1440px) and (max-width: 1823px) {
-    .contact-form {
-        width: 100%;
-        height: 760px;
-        border-radius: 3rem;
-    }
-}
-
-/* CONTACT FORM WIDTH + HEIGHT FOR XXL SCREENS */
-@media (min-width: 1824px) and (max-width: 2561px) {
-    .contact-form {
-        width: 100%;
-        height: 1050px;
-        border-radius: 3rem;
-    }
+.contact-form {
+    width: 100%;
+    height: 100%;
 }
 
 .rounded {
     border-radius: 3rem;
 }
 
-/* CONTACT FORM INPUT SIZES FOR SM SCREENS */
-@media (min-width: 319px) and (max-width: 426px) {
+/* CONTACT FORM INPUT SIZES FOR SMALL - SM SCREENS */
+@media (min-width: 319px) and (max-width: 340px) {
     .form-style-xl {
         width: 220px;
         height: 40px;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
+
+/* CONTACT FORM INPUT SIZES FOR MIDDLE - SM SCREENS */
+@media (min-width: 340px) and (max-width: 426px) {
+    .form-style-xl {
+        width: 230px;
+        height: 50px;
+    } 
+
+    h3 {
+        font-size: 32px;
+        line-height: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    input {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    textarea {
+        font-size: 20px;
+        line-height: 28px;
     }
 }
 
 /* CONTACT FORM INPUT SIZES FOR MD SCREENS */
 @media (min-width: 426px) and (max-width: 1023px) {
     .form-style-xl {
-        width: 250px;
-        height: 48px;
+        width: 100%;
+        height: 60px;
     }
 }
 
 /* CONTACT FORM INPUT SIZES FOR LG SCREENS */
 @media (min-width: 1024px) and (max-width: 1439px) {
     .form-style-xl {
-        width: 390px;
+        width: 100%;
         height: 64px;
     }
 }
@@ -159,7 +152,7 @@ body {
 @media (min-width: 1440px) and (max-width: 1823px) {
     .form-style-xl {
         width: 580px;
-        height: 60px;
+        height: 75px;
     }
 }
 
