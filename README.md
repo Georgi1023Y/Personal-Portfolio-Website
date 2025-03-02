@@ -64,7 +64,8 @@ Deploy easily on **Vercel**, **Netlify**, or any hosting platform of your choice
 
 ## 👨‍💻 Author
 
-**Your Name**\
+GEORGI BESHIROV
+
 LinkedIn - https://www.linkedin.com/in/georgi-beshirov-a6531523b/ | Portfolio - https://portfolio-website-tau-navy.vercel.app/
 
 ## ⭐ Show Your Support
