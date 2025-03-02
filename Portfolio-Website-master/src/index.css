@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 320px) and (max-width: 767px) {
+    canvas {
+            height: 35vh !important;
+            width: 35vh !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    canvas {
+            height: 55vh !important;
+            width: 55vh !important;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    canvas {
+        height: 50vh !important;
+        width: 50vh !important;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 2560px) {
+    canvas {
+            height: 60vh !important;
+            width: 60vh !important;
+    }
+}
+
+
+
+body {
+    font-family: 'Roboto Mono', monospace; 
+    height: 100vh;
+    margin: 0;
+}
+
+.light-mode {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+.dark-mode {
+    background-image: linear-gradient(to right, #000000, #070606, #0e0d0c, #121211, #161615);
+}
+
+.dark-mode h2 {
+    color: #ffb300;
+}
+
+.logo-text {
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+.contact-button {
+    background-color: #eab308;
+}
+
+.gap {
+   gap:45rem;
+}
+
+ .rounded-top {
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     height: 40%;
+}
+
+.contact-form {
+    width: 100%;
+    height: 100%;
+}
+
+.rounded {
+    border-radius: 3rem;
+}
+
+@media (min-width: 319px) and (max-width: 340px) {
+    .form-style-xl {
+        width: 220px;
+        height: 40px;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 340px) and (max-width: 426px) {
+    .form-style-xl {
+        width: 230px;
+        height: 50px;
+    } 
+
+    h3 {
+        font-size: 32px;
+        line-height: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    input {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    textarea {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+    .form-style-xl {
+        width: 100%;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .form-style-xl {
+        width: 100%;
+        height: 64px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1823px) {
+    .form-style-xl {
+        width: 580px;
+        height: 75px;
+    }
+}
+
+@media (min-width: 1824px) and (max-width: 2561px) {
+    .form-style-xl {
+        width: 700px;
+        height: 96px;
+    }
+}
+
+.mobile-navbar {
+    background-color: #9BBFEC;
+}
+
+@media (min-width: 640px) {
+    .sm\:w-12\/12 {
+        width: 95%;
+    }
+}
